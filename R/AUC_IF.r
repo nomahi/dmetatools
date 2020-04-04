@@ -17,7 +17,9 @@ AUC_IF <- function(TP, FP, FN, TN, B=2000, alpha=0.95, Cores=detectCores()){
 	
 	print("This computation will take a lot of time. Please don't stop the computation at least a few hours to obtain the outputs.")
 
-	R1 <- foreach(out = 1:N, .combine = rbind, .packages=c("MASS","mada")) %dopar% {
+	opts <- list(progress = function(x) print(paste0(x,"th study's bootstrap is completed.")))
+
+	R1 <- foreach(out = 1:N, .combine = rbind, .packages=c("MASS","mada"), .options.snow = opts) %dopar% {
 
 		dti.1 <- dt1[-out,]
 		auci <- summary(reitsma(dti.1))$AUC$AUC
