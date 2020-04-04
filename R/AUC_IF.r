@@ -65,6 +65,8 @@ AUC_IF <- function(TP, FP, FN, TN, B=2000, alpha=0.95, Cores=detectCores()){
 	
 	R2 <- list(AUC=auc,IF=R1)
 	
+	print("All computations are completed.")
+	
 	return(R2)
 
 }
