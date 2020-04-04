@@ -14,6 +14,8 @@ AUC_IF <- function(TP, FP, FN, TN, B=2000, alpha=0.95, Cores=detectCores()){
 
 	cl <- makeSOCKcluster(Cores)
 	registerDoSNOW(cl)
+	
+	print("This computation will take a lot of time. Please don't stop the computation at least a few hours to obtain the outputs.")
 
 	R1 <- foreach(out = 1:N, .combine = rbind, .packages=c("MASS","mada")) %dopar% {
 

@@ -1,4 +1,4 @@
-AUC_boot <- function(TP, FP, FN, TN, B=2000, alpha=0.95){
+AUC_boot3 <- function(TP, FP, FN, TN, B=2000){
 
 	N <- length(TP)   # number of studies
 	p <- 2  # dimension of the multivariate meta-analysis
@@ -30,16 +30,12 @@ AUC_boot <- function(TP, FP, FN, TN, B=2000, alpha=0.95){
 		fit.pb <- reitsma(dt.pb)
 		auc.pb[b] <- summary(fit.pb)$AUC$AUC
 		
-		print1 <- paste0("The ",b,"th bootstrap is completed.")
+		print1 <- paste0("The ",b,"th bootstrap for test 2 is completed.")
 		print(print1)
 	
 	}
 
-	Q1 <- quantile(auc.pb,c(.5*(1-alpha),1-.5*(1-alpha)))
-	
-	R1 <- list(AUC=auc,CI=Q1)
-	
-	return(R1)
+	return(auc.pb)
 
 }
 
