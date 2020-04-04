@@ -1,4 +1,4 @@
-AUC_test <- function(TP1, FP1, FN1, TN1, TP2, FP2, FN2, TN2, B=2000, alpha=0.05){
+AUC_comparison <- function(TP1, FP1, FN1, TN1, TP2, FP2, FN2, TN2, B=2000, alpha=0.05){
 
 	dt1 <- data.frame(TP1,FP1,FN1,TN1)
 	colnames(dt1) <- c("TP","FP","FN","TN")
