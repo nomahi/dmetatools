@@ -1,0 +1,13 @@
+Package: dmetatools
+Type: Package
+Title: Computational tools for meta-analysis of diagnostic accuracy test
+Version: 1.0.0
+Date: 2020-04-04
+Author: Hisashi Noma
+Maintainer: Hisashi Noma <noma@ism.ac.jp>
+Description: A R package for computational tools of meta-analysis of diagnostic accuracy test. This package enables computations of confidence interval for AUC of summary ROC curve and some related AUC-based inference methods.
+Depends:
+  MASS, doSNOW, doParallel, mada
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
