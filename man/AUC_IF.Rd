@@ -36,9 +36,14 @@ The threthold to determine influential outlying study is computed by parametric 
 }
 \examples{
 data(asthma)
+
+fit1 <- reitsma(asthma)		# DTA analysis using the Reitsma model
+summary(fit1)
+
+plot(fit1)		# Plot the SROC curves
+points(fpr(asthma), sens(asthma), cex = .5)
+
 attach(asthma)
-
-AUC_IF(TP, FP, FN, TN)
-
+AUC_IF(TP, FP, FN, TN)		# Influential analysis based on the AUC
 detach(asthma)
 }
