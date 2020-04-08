@@ -15,19 +15,19 @@ AUC_IF(TP, FP, FN, TN, B=2000, alpha=0.95, Cores=detectCores())
 
 \item{B}{The number of bootstrap resampling (defalt: 2000)}
 
-\item{alpha}{The error level to be calculated for the bootstrap interval of \code{dAUC} (default: 0.95)}
+\item{alpha}{The error level to be calculated for the bootstrap interval of \code{deltaAUC} (default: 0.95)}
 
-\item{Cores}{The number of cores for parallel computations (if the user don't want to implement parallel computations, please set to 1).}
+\item{Cores}{The number of cores to be used for parallel computations (if the user don't want to implement parallel computations, please set to 1).}
 }
 \value{
-Influence diagnostic statistics based on the AUC of the summary ROC curve. The output is sorted by the absolute size of \code{dAUC}.
+Influence diagnostic statistics based on the AUC of the summary ROC curve. The output is sorted by the absolute size of \code{deltaAUC}.
 \itemize{
 \item \code{AUC}: The AUC of the summary ROC curve.
 \item \code{id}: identification number.
 \item \code{AUC(-i)}: The AUC estimate if \code{i}th study is excluded.
-\item \code{dAUC}: The difference of AUC estimates for all study and for the subpopulation that \code{i}th study is excluded.
-\item \code{Q1}: Default 2.5th percentile of the bootstrap distribution of \code{dAUC} (can be changed by \code{alpha}).
-\item \code{Q2}: Default 97.5th percentile of the bootstrap distribution of \code{dAUC} (can be changed by \code{alpha}).
+\item \code{deltaAUC}: The difference of AUC estimates for all study and for the subpopulation that \code{i}th study is excluded.
+\item \code{Q1}: Default 2.5th percentile of the bootstrap distribution of \code{deltaAUC} (can be changed by \code{alpha}).
+\item \code{Q2}: Default 97.5th percentile of the bootstrap distribution of \code{deltaAUC} (can be changed by \code{alpha}).
 }
 }
 \author{Hisashi Noma <noma@ism.ac.jp>}
