@@ -30,7 +30,7 @@ Calculating the confidence interval for AUC of summary ROC curve by parametric b
 \author{Hisashi Noma <noma@ism.ac.jp>}
 \references{
 Noma, H. and Matsushima, Y. (2020). 
-Confidence interval for AUC of the SROC curve and some related methods using bootstrap for meta-analysis of diagnostic accuracy studies. 
+Confidence interval for the AUC of SROC curve and some related methods using bootstrap for meta-analysis of diagnostic accuracy studies. 
 Under Preparation.
 }
 \examples{

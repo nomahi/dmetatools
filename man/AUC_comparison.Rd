@@ -41,7 +41,7 @@ Also, the difference of the AUCs (\code{dAUC}) and its confidence interval, and 
 \author{Hisashi Noma <noma@ism.ac.jp>}
 \references{
 Noma, H. and Matsushima, Y. (2020). 
-Confidence interval for AUC of the SROC curve and some related methods using bootstrap for meta-analysis of diagnostic accuracy studies. 
+Confidence interval for the AUC of SROC curve and some related methods using bootstrap for meta-analysis of diagnostic accuracy studies. 
 Under Preparation.
 }
 \description{

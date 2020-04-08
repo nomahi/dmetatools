@@ -19,6 +19,11 @@ data(cervical)
 }
 }
 \references{
+Scheidler, J., Hricak, H., Yu, K. K., Subak, L., and Segal, M. R. (1997). 
+Radiological evaluation of lymph node metastases in patients with cervical cancer. A meta-analysis. 
+\emph{JAMA} \strong{278}: 1096-1101.
+\url{https://jamanetwork.com/journals/jama/fullarticle/vol/278/pg/1096}
+
 Reitsma, J. B., Glas, A. S., Rutjes, A. W., Scholten, R. J., Bossuyt, P. M., and Zwinderman, A. H. (2005). 
 Bivariate analysis of sensitivity and specificity produces informative summary measures in diagnostic reviews. 
 \emph{Journal of Clinical Epidemiology} \strong{58}: 982-990.
