@@ -21,14 +21,17 @@ AUC_boot(TP, FP, FN, TN, B=2000, alpha=0.95)
 The confidence interval for AUC of summary ROC curve is calculated. 
 \itemize{
 \item \code{AUC}: The AUC of the summary ROC curve.
-\item \code{AUC_CI}: The \code{alpha}\% confidence interval for the AUC of the summary ROC curve.
+\item \code{AUC_CI}: The 95\% confidence interval for the AUC of the summary ROC curve (the confidence level can be changed by \item{alpha}).
 }
 }
 \description{
 Calculating the confidence interval for AUC of summary ROC curve by parametric bootstrap.
 }
-\authors{
-Hisashi Noma <noma@ism.ac.jp>
+\author{Hisashi Noma <noma@ism.ac.jp>}
+\references{
+Noma, H. and Matsushima, Y. (2020). 
+Confidence interval for AUC of the SROC curve and some related methods using bootstrap for meta-analysis of diagnostic accuracy studies. 
+Under Preparation.
 }
 \examples{
 data(cervical)

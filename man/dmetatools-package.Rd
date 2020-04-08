@@ -1,13 +1,13 @@
 \docType{package}
 \name{dmetatools-package}
-\alias{dmetatools-package}
 \alias{dmetatools}
 \title{The 'dmetatools' package.}
 \description{
-A R package for computational tools of meta-analysis of diagnostic accuracy test. This package enables computations of confidence interval for AUC of summary ROC curve and some related AUC-based inference methods.
+Computational tools for meta-analysis of diagnostic accuracy test. This package enables computations of confidence interval for the AUC of summary ROC curve and some related AUC-based inference methods.
 }
+\author{Hisashi Noma <noma@ism.ac.jp>}
 \references{
 Noma, H. and Matsushima, Y. (2020). 
-Bootstrap confidence interval for AUC of the summary ROC curve and some related methods for meta-analysis of diagnostic accuracy studies. 
+Confidence interval for AUC of the SROC curve and some related methods using bootstrap for meta-analysis of diagnostic accuracy studies. 
 Under Preparation.
 }

@@ -1,6 +1,6 @@
 \name{AUC_comparison}
 \alias{AUC_comparison}
-\title{Bootstrap test for AUCs of summary ROC curves for multiple diagnostic tests}
+\title{Bootstrap test for the difference of AUCs of summary ROC curves for multiple diagnostic tests}
 \usage{
 AUC_comparison(TP1, FP1, FN1, TN1, TP2, FP2, FN2, TN2, B=2000, alpha=0.05)
 }
@@ -30,13 +30,19 @@ The AUCs of the summary ROC curves and their confidence intervals are calculated
 Also, the difference of the AUCs (\code{dAUC}) and its confidence interval, and the p-value for the test of "\code{dAUC=0}" are provided.
 \itemize{
 \item \code{AUC1}: The AUC of the summary ROC curve for test 1.
-\item \code{AUC1_CI}: The \code{1-alpha}\% confidence interval for the AUC of the summary ROC curve for test 1.
+\item \code{AUC1_CI}: The 95\% confidence interval for the AUC of the summary ROC curve for test 1 (the confidence level can be changed by \item{alpha}).
 \item \code{AUC2}: The AUC of the summary ROC curve for test 2.
-\item \code{AUC2_CI}: The \code{1-alpha}\% confidence interval for the AUC of the summary ROC curve for test 2.
+\item \code{AUC2_CI}: The 95\% confidence interval for the AUC of the summary ROC curve for test 2 (the confidence level can be changed by \item{alpha}).
 \item \code{dAUC}: The difference of the AUC1 and AUC2.
-\item \code{dAUC_CI}: The \code{1-alpha}\% confidence interval for \code{dAUC}.
+\item \code{dAUC_CI}: The 95\% confidence interval for \code{dAUC} (the confidence level can be changed by \item{alpha}).
 \item \code{pvalue}: The p-value of the test of \code{dAUC=0}.
 }
+}
+\author{Hisashi Noma <noma@ism.ac.jp>}
+\references{
+Noma, H. and Matsushima, Y. (2020). 
+Confidence interval for AUC of the SROC curve and some related methods using bootstrap for meta-analysis of diagnostic accuracy studies. 
+Under Preparation.
 }
 \description{
 Calculating the difference of AUCs of summary ROC curves (\code{dAUC}) and its confidence interval, and the p-value for the test of "\code{dAUC=0}" by parametric bootstrap.

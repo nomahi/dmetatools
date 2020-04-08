@@ -1,6 +1,6 @@
 \name{AUC_IF}
 \alias{AUC_IF}
-\title{Influence diagnostics based on AUC of the summary ROC curve}
+\title{Influence diagnostics based on the AUC of summary ROC curve}
 \usage{
 AUC_IF(TP, FP, FN, TN, B=2000, alpha=0.95, Cores=detectCores())
 }
@@ -29,6 +29,12 @@ Influence diagnostic statistics based on the AUC of the summary ROC curve. The o
 \item \code{Q1}: Default 2.5th percentile of the bootstrap distribution of \code{dAUC} (can be changed by \code{alpha}).
 \item \code{Q2}: Default 97.5th percentile of the bootstrap distribution of \code{dAUC} (can be changed by \code{alpha}).
 }
+}
+\author{Hisashi Noma <noma@ism.ac.jp>}
+\references{
+Noma, H. and Matsushima, Y. (2020). 
+Confidence interval for AUC of the SROC curve and some related methods using bootstrap for meta-analysis of diagnostic accuracy studies. 
+Under Preparation.
 }
 \description{
 Influence diagnostics based on AUC of the summary ROC curve by leave-one-out analysis. 
