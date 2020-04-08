@@ -61,7 +61,7 @@ AUC_IF <- function(TP, FP, FN, TN, B=2000, alpha=0.95, Cores=detectCores()){
 	stopCluster(cl)
 	
 	R1 <- R1[rev(order(abs(R1[,3]))),]
-	colnames(R1) <- c("id","AUC(-i)","dAUC","Q1","Q2")
+	colnames(R1) <- c("id","AUC(-i)","deltaAUC","Q1","Q2")
 	
 	R2 <- list(AUC=auc,IF=R1)
 	

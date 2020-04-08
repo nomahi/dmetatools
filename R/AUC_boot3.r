@@ -31,7 +31,7 @@ AUC_boot3 <- function(TP, FP, FN, TN, B=2000){
 		auc.pb[b] <- summary(fit.pb)$AUC$AUC
 		
 		print1 <- paste0("The ",b,"th bootstrap for test 2 is completed.")
-		print(print1)
+		if(b%%100==0) print(print1)
 	
 	}
 
