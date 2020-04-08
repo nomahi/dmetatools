@@ -7,9 +7,9 @@
 A R package for computational tools for meta-analysis of diagnostic accuracy test (DTA):
 
 - Implementing parametic bootstrap for DTA meta-analysis
-- Calculating confidence interval for AUC of the summary ROC curve
-- Testing the difference of AUCs for the summary ROC curves of multiple diagnostic tests
-- Influence diagnostics based on AUC of the summary ROC curve by leave-one-out analysis
+- Calculating a confidence interval for the AUC of summary ROC curve
+- Testing the difference of AUCs for summary ROC curves of multiple diagnostic tests
+- Influence diagnostics based on the AUC of summary ROC curve by leave-one-out analysis
 
 
 ## Installation
