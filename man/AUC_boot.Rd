@@ -15,7 +15,7 @@ AUC_boot(TP, FP, FN, TN, B=2000, alpha=0.95)
 
 \item{B}{The number of bootstrap resampling (defalt: 2000)}
 
-\item{alpha}{The confidence level (default: 0.05)}
+\item{alpha}{The confidence level (default: 0.95)}
 }
 \value{
 The confidence interval for AUC of summary ROC curve is calculated. 
@@ -26,6 +26,9 @@ The confidence interval for AUC of summary ROC curve is calculated.
 }
 \description{
 Calculating the confidence interval for AUC of summary ROC curve by parametric bootstrap.
+}
+\authors{
+Hisashi Noma <noma@ism.ac.jp>
 }
 \examples{
 data(cervical)
