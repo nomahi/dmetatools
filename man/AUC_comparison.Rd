@@ -30,11 +30,11 @@ The AUCs of the summary ROC curves and their confidence intervals are calculated
 Also, the difference of the AUCs (\code{dAUC}) and its confidence interval, and the p-value for the test of "\code{dAUC=0}" are provided.
 \itemize{
 \item \code{AUC1}: The AUC of the summary ROC curve for test 1.
-\item \code{AUC1_CI}: The 95\% confidence interval for the AUC of the summary ROC curve for test 1 (the confidence level can be changed by \item{alpha}).
+\item \code{AUC1_CI}: The 95\% confidence interval for the AUC of the summary ROC curve for test 1 (the confidence level can be changed by \code{alpha}).
 \item \code{AUC2}: The AUC of the summary ROC curve for test 2.
-\item \code{AUC2_CI}: The 95\% confidence interval for the AUC of the summary ROC curve for test 2 (the confidence level can be changed by \item{alpha}).
+\item \code{AUC2_CI}: The 95\% confidence interval for the AUC of the summary ROC curve for test 2 (the confidence level can be changed by \code{alpha}).
 \item \code{dAUC}: The difference of the AUC1 and AUC2.
-\item \code{dAUC_CI}: The 95\% confidence interval for \code{dAUC} (the confidence level can be changed by \item{alpha}).
+\item \code{dAUC_CI}: The 95\% confidence interval for \code{dAUC} (the confidence level can be changed by \code{alpha}).
 \item \code{pvalue}: The p-value of the test of \code{dAUC=0}.
 }
 }

@@ -21,7 +21,7 @@ AUC_boot(TP, FP, FN, TN, B=2000, alpha=0.95)
 The confidence interval for AUC of summary ROC curve is calculated. 
 \itemize{
 \item \code{AUC}: The AUC of the summary ROC curve.
-\item \code{AUC_CI}: The 95\% confidence interval for the AUC of the summary ROC curve (the confidence level can be changed by \item{alpha}).
+\item \code{AUC_CI}: The 95\% confidence interval for the AUC of the summary ROC curve (the confidence level can be changed by \code{alpha}).
 }
 }
 \description{

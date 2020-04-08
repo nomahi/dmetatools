@@ -1,7 +1,7 @@
 \docType{data}
 \name{cervical}
 \alias{cervical}
-\title{Reitsma et al. (2005)'s cervical cancer data}
+\title{Scheidler et al. (1997)'s cervical cancer data}
 \format{A data frame with 44 rows and 8 variables}
 \usage{
 data(cervical)
