@@ -15,7 +15,7 @@ AUC_IF <- function(TP, FP, FN, TN, B=2000, alpha=0.95, Cores=detectCores()){
 	cl <- makeSOCKcluster(Cores)
 	registerDoSNOW(cl)
 	
-	print("This computation will take a lot of time. Please don't stop the computation at least a few hours to obtain the outputs.")
+	print("This computation will take a lot of time. Please don't stop the computation at least 10 to 20 minutes to obtain the outputs.")
 
 	opts <- list(progress = function(x) print(paste0(x,"th study's bootstrap is completed.")))
 
