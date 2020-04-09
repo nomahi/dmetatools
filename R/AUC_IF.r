@@ -17,7 +17,7 @@ AUC_IF <- function(TP, FP, FN, TN, B=2000, alpha=0.95, Cores=detectCores()){
 	
 	print("This computation will take a lot of time. Please don't stop the computation at least 10 to 20 minutes to obtain the outputs.")
 
-	opts <- list(progress = function(x) print(paste0(x,"th study's bootstrap is completed.")))
+	opts <- list(progress = function(x) print(paste0("The bootstrap of study ",x," is completed.")))
 
 	R1 <- foreach(out = 1:N, .combine = rbind, .packages=c("MASS","mada"), .options.snow = opts) %dopar% {
 
