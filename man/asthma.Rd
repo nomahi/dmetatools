@@ -20,5 +20,10 @@ Diagnostic accuracy of minimally invasive markers for detection of airway eosino
 a systematic review and meta-analysis. 
 \emph{Lancet Respiratory Medicine.} \strong{3}: 290-300.
 \url{https://doi.org/10.1016/S2213-2600(15)00050-8}
+
+Noma, H. and Matsushima, Y. (2020). 
+Confidence interval for the AUC of SROC curve and some related methods using bootstrap for meta-analysis of diagnostic accuracy studies. 
+arXiv:2004.04339.
+\url{https://arxiv.org/abs/2004.04339}
 }
 \keyword{datasets}

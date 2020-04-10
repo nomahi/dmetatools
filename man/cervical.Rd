@@ -28,5 +28,10 @@ Reitsma, J. B., Glas, A. S., Rutjes, A. W., Scholten, R. J., Bossuyt, P. M., and
 Bivariate analysis of sensitivity and specificity produces informative summary measures in diagnostic reviews. 
 \emph{Journal of Clinical Epidemiology} \strong{58}: 982-990.
 \url{https://doi.org/10.1016/j.jclinepi.2005.02.022}
+
+Noma, H. and Matsushima, Y. (2020). 
+Confidence interval for the AUC of SROC curve and some related methods using bootstrap for meta-analysis of diagnostic accuracy studies. 
+arXiv:2004.04339.
+\url{https://arxiv.org/abs/2004.04339}
 }
 \keyword{datasets}

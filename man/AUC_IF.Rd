@@ -34,7 +34,8 @@ Influence diagnostic statistics based on the AUC of the summary ROC curve. The o
 \references{
 Noma, H. and Matsushima, Y. (2020). 
 Confidence interval for the AUC of SROC curve and some related methods using bootstrap for meta-analysis of diagnostic accuracy studies. 
-Under Preparation.
+arXiv:2004.04339.
+\url{https://arxiv.org/abs/2004.04339}
 }
 \description{
 Influence diagnostics based on AUC of the summary ROC curve by leave-one-out analysis. 
