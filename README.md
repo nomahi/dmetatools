@@ -20,4 +20,3 @@ A R package for computational tools for meta-analysis of diagnostic accuracy tes
 devtools::install_github("nomahi/dmetatools")
 ```
 
-Downloads: [please see the release page](https://github.com/nomahi/dmetatools/releases)
