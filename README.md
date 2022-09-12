@@ -14,9 +14,8 @@ A R package for computational tools for meta-analysis of diagnostic accuracy tes
 
 ## Installation
 
-``` r
-# Or the the development version from GitHub:
-# install.packages("devtools")
-devtools::install_github("nomahi/dmetatools")
-```
+Please download "dmetatools_1.1.2.tar.gz" and install it by R menu: "packages" -> "Install package(s) from local files...".
 
+Download: [please click this link](https://github.com/nomahi/dmetatools/raw/main/dmetatools_1.1.2.tar.gz)
+
+Manual: [please click this link](https://github.com/nomahi/dmetatools/blob/main/dmetatools_1.1.2.pdf)
