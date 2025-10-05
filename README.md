@@ -19,3 +19,9 @@ Please download "dmetatools_1.1.2.tar.gz" and install it by R menu: "packages" -
 Download: [please click this link](https://github.com/nomahi/dmetatools/raw/master/dmetatools_1.1.2.tar.gz)
 
 Manual: [please click this link](https://github.com/nomahi/dmetatools/blob/master/dmetatools_1.1.2.pdf)
+
+
+
+## CRAN
+
+The dmetatools package is also available on CRAN (https://doi.org/10.32614/CRAN.package.dmetatools); please try installing it in R using install.packages("dmetatools").
