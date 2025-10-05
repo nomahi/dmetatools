@@ -22,7 +22,7 @@ Manual: [please click this link](https://github.com/nomahi/dmetatools/blob/maste
 
 
 
-## CRAN
+## Release on CRAN
 
 The dmetatools package is also available on CRAN (https://doi.org/10.32614/CRAN.package.dmetatools); please try installing it in R using install.packages("dmetatools").
 
